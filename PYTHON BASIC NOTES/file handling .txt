@@ -1,0 +1,36 @@
+
+
+"""import os
+if os.path.exists("C:\\Users\\UX011199\\Desktop\\new.txt"):
+    os.remove("C:\\Users\\UX011199\\Desktop\\new.txt")
+else:
+    print("file does not exist")"""
+
+
+f=open("C:\\Users\\UX011199\\Desktop\\aaa.txt","w")
+f.write("adding some data to the file. ")
+
+f=open("C:\\Users\\UX011199\\Desktop\\aaa.txt","r")
+print(f.readline())
+
+f=open("C:\\Users\\UX011199\\Desktop\\aaa.txt","a")
+f.write("Adding some more data!\n yes.")
+
+f=open("C:\\Users\\UX011199\\Desktop\\aaa.txt","r")
+print(f.readline())
+
+import os
+os.rmdir("C:\\Users\\UX011199\\Desktop\\AA")
+
+import os
+if os.path.exists("C:\\Users\\UX011199\\Desktop\\aa.txt"):
+    os.remove("C:\\Users\\UX011199\\Desktop\\aa.txt")
+else:
+    print("path doesn't exists")
+
+f=open("C:\\Users\\UX011199\\Desktop\\aaa.txt","r")
+for x in f:
+    print(x)
+
+
+file handling concepts
